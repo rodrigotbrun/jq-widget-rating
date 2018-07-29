@@ -1,0 +1,22 @@
+.rb-rating {
+    position: relative;
+    display: inline-block;
+}
+
+.rb-rating .rb-rating-star {
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.rb-rating .rb-rating-star.inactive {
+    background-image: url(img/star-inactive.svg) ;
+}
+
+.rb-rating .rb-rating-star.active {
+    background-image: url(img/star.svg) ;
+}
